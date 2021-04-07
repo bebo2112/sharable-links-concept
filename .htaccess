@@ -1,0 +1,4 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine on
+RewriteRule ^profiles$ profiles.php [NC]
+RewriteRule ^profile/([a-zA-Z0-9]*)$ index.php?id=$1 [NC,L]
